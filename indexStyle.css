@@ -1,0 +1,47 @@
+header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile {
+    height: 10%;
+    width: 10%;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidebar {
+    width: 10vw;
+}
+.posts {
+    flex-direction: column;
+    width: 50vw;
+}
+.post {
+    margin: 5px;
+    background-color: antiquewhite;
+}
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.postProfile {
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 10%;
+    width: 10%;
+}
+.postPic {
+    padding-left: 25%;
+    height: 50%;
+    width: 50%;
+}
+.likeButton {
+    height: 5%;
+    width: 5%;
+}
