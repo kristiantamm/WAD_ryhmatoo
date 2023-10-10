@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.navLinks {
+    margin-left: 30px;
+}
+.navLinks > a {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    transition: 500ms linear;
+    margin-right: 40px;
+}
+.navLinks > a:hover {
+    color: white;
+    background-color: black;
+}
+.profile {
+    border-radius: 10px;
+    height: 9vh;
+    width: 9vh;
+    margin-right: 30px;
+}
+.content{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content form {
+    margin-top: 50%;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    padding: 25%;
+  }
+#button{
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+}
+  

@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>addPost</title>
+    <link rel="stylesheet" href="addPostStyle.css">
 </head>
 <body>
+    <header>
+        <div class="navLinks">
+            <a href="index.html">Home</a>
+        </div>
+        <img class="profile" src="krattUUS.jpg" alt="">
+    </header>
+    <div class="content">
+        <div class="form">
+            <form>
+                <label for="postBody">Post body</label>
+                <textarea name="postBody" rows="4" cols="20"></textarea><br>
+                <label for="post">Select file</label>
+                <input type="file" id="postFile" name="post"><br>
+                <input id="button"  type="button" onclick="redirectToIndex()" value="Create post">
+            </form>
+        </div>
+    </div>
     
+    <footer></footer>
+    <script>
+        function redirectToIndex(){
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 </html>
