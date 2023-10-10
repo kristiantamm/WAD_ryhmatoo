@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navLinks {
+    margin-left: 30px;
+}
+
+.navLinks > a {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    transition: 500ms linear;
+    margin-right: 40px;
+}
+.navLinks > a:hover {
+    color: white;
+    background-color: black;
+}
+.profile {
+    border-radius: 10px;
+    height: 9vh;
+    width: 9vh;
+    margin-right: 30px;
+}
+
+#content {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: #e0e0e0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #4bb7e4;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > input {
+    padding: 0.5rem;
+    margin: 0.3rem 0;
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(100%);
+}
+
+button {
+    background-color: #1a4d80;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .login {
+        width: 95%;
+    }
+}
