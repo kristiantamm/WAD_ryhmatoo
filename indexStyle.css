@@ -8,7 +8,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
+    position: sticky;
     top: 0px;
     height: 10vh;
     width: 100%;
@@ -36,20 +36,29 @@ header {
     width: 9vh;
     margin-right: 30px;
 }
-.content {
-    margin-top: 11vh;
+#content {
+    margin-top: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .sidebar {
-    width: 20vw;
     background-color: rgb(169, 169, 169);
     border-radius: 10px;
 }
+@media screen and (min-width: 800px) {
+    .sidebar {
+        width: 0vw;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .sidebar {
+        width: 20vw;
+    }
+}
 .posts {
     flex-direction: column;
-    width: 50vw;
+    
 }
 .post {
     margin: 5px;
@@ -63,7 +72,7 @@ header {
     padding: 10px;
 }
 .postProfile {
-    
+    border: 1px solid black;
     margin-left: 5px;
     margin-top: 5px;
     height: 10%;
