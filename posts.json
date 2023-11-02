@@ -1,0 +1,74 @@
+{
+
+    "Post1":
+    {
+        "profilePic" : "krattUUS.jpg",
+        "date" : "oct 23, 2023",
+        "postPic" : "",
+        "postText" : "Yo mees"
+    },
+    "Post2":
+    {
+        "profilePic" : "./pictures/cat.jpg",
+        "date" : "oct 3, 2023",
+        "postPic" : "krattUUS.jpg",
+        "postText" : "Yo mees"
+    },
+    "Post3":
+    {
+        "profilePic" : "krattUUS.jpg",
+        "date" : "nov 23, 2023",
+        "postPic" : "",
+        "postText" : "Yo mees"
+    },
+    "Post4":
+    {
+        "profilePic" : "./pictures/cat.jpg",
+        "date" : "oct 21, 2023",
+        "postPic" : "krattUUS.jpg",
+        "postText" : "Yo mees"
+    },
+    "Post5":
+    {
+        "profilePic" : "krattUUS.jpg",
+        "date" : "oct 13, 2023",
+        "postPic" : "krattUUS.jpg",
+        "postText" : "Yo mees"
+    },
+    "Post6":
+    {
+        "profilePic" : "./pictures/cat.jpg",
+        "date" : "oct 11, 2023",
+        "postPic" : "",
+        "postText" : "Yo mees"
+    },
+    "Post7":
+    {
+        "profilePic" : "krattUUS.jpg",
+        "date" : "oct 30, 2023",
+        "postPic" : "",
+        "postText" : "Yo mees"
+    },
+    "Post8":
+    {
+        "profilePic" : "./pictures/cat.jpg",
+        "date" : "nov 2, 2023",
+        "postPic" : "krattUUS.jpg",
+        "postText" : "Yo mees"
+    },
+    "Post9":
+    {
+        "profilePic" : "./pictures/cat.jpg",
+        "date" : "nov 10, 2023",
+        "postPic" : "",
+        "postText" : "Yo mees"
+    },
+    "Post10":
+    {
+        "profilePic" : "krattUUS.jpg",
+        "date" : "oct 1, 2023",
+        "postPic" : "krattUUS.jpg",
+        "postText" : "Yo mees"
+    }
+}
+
