@@ -2,6 +2,9 @@
 let url = "https://api.npoint.io/c8ef7e88fedaefe958f4"
 
 
+
+
+
 async function getPosts() {
     let posts
     const res = await fetch(url)
@@ -44,19 +47,24 @@ async function init() {
         div.appendChild(postText)
         div.appendChild(likeBtn)
         wrapper.appendChild(div)
+
+        const profile = document.getElementById("profile")
+        profile.addEventListener("click", showDropDown);
     }
 }
 
 window.onload = init;
 
-document.getElementById("profile").addEventListener("click", function() {
-    var dropdownContent = document.getElementById("dropdown-content");
+function showDropDown() {
+    const dropdownContent = document.getElementById("dropdown-content");
     if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
     } else {
         dropdownContent.style.display = "block";
     }
-});
+}
+
+
 
 
 
