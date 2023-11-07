@@ -1,20 +1,25 @@
 
 let url = "https://api.npoint.io/c8ef7e88fedaefe958f4"
 
-
-
-
-
+/*
 async function getPosts() {
     let posts
     const res = await fetch(url)
     posts = await res.json()
     return posts
 }
+*/
+
+async function getLocalPosts() {
+    const res = await fetch("posts.json")
+    const posts = await res.json()
+    return posts
+}
 
 async function init() {
     const wrapper = document.getElementById("posts")
-    const posts = await getPosts();
+    // const posts = await getPosts();
+    const posts = await getLocalPosts();
     let numPosts = Object.keys(posts).length;
     for (let i = 0; i < numPosts; i++) {
         let post = posts[Object.keys(posts)[i]]
