@@ -68,8 +68,3 @@ function showDropDown() {
         dropdownContent.style.display = "block";
     }
 }
-
-
-
-
-
